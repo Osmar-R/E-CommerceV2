@@ -1,38 +1,365 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Nav bar Styling  */
+
+.Navbar {
+  background-color: black;
+  color: #F4AF1B;
+  width: 100%;
+  height: 65px;
+  justify-content: space-between;
+  display:flex;
+  padding-top: 30px;
+}
+
+nav li  {
+  display: inline;
+  margin: 0 40px; 
+  font-size: 1.2em;   
+}
+
+nav a {
+  color: #F4AF1B;
+}
+
+.number {
+  position: relative;
+  left: 100px; /* This will move it 20px to the right */
+  top: -15px;
+  font-size: 1.3em;
+}
+
+/* Home Styling */
+
+/* Hero Image Section / Secon Section */
+.Background-Image-1st-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(https://static.concretenetwork.com/photo-gallery/images/1200x625Exact/site_26/salzano-custom-concrete_55093.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  padding-top: 300px;
+}
+
+.hero-sec-container {
+  font-size: 3em;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Homepage-description{
+  text-align: center;
+  color: white;
+  padding-top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Contact Page Syling */
+
+.contact-form {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.cabinetmakerwarehouse.com/wp-content/uploads/y0374-mack-ave-concrete-download.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  height: 800px;
+  color: #F4AF1B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form-inputs {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #F4AF1B;
+  border-radius: 5px;
+  padding: 20px 60px;
+}
+
+.contact-form-inputs input, textarea {
+  margin: 5px;
+}
+
+textarea {
+  resize: none;
+  height: 10vh;
+}
+
+.btn-for-submit {
+  color: #000;
+  background-color: #F4AF1B;
+  padding: 12px 0px;
+  margin-top: 60px;
+  display: block;
+  width: 120px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 600ms;
+  text-align: center;
+}
+
+.btn-for-submiit:hover {
+  background-color: #000;
+  color: #fff;
+}
+ 
+/* Products Page Syling */
+
+
+.service-container {
+  background-color:#222 ;
+  text-align: center;
+  height: 120px;
+ padding-top: 60px;
+ color: white;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 1.2em;
+}
+
+/* Third Sectiion */
+
+.home-details {
+  display: flex;
+  height: 26vh;
+  background-color:#00154F;
+  border: 2px solid black;
+
+}
+
+.home-details p {
+  position: relative;
+  bottom: 50px;
+}
+.home-details-2 p {
+  position: relative;
+  bottom: 50px; 
+}
+
+.home-details-2 {
+  display: flex;
+  height: 30vh;
+  background-color: black;
+  border: 2px solid #00154F;
+
+}
+
+.detail-container {
+  width: 800px;
+  margin: 100px auto;
+  color: white;
+}
+
+.detail-container p {
+  font-size: 25px;
+  line-height: 1.5;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.box-img-1 {
+  background: url(https://alphapavingtexas.com/wp-content/uploads/2019/11/concretesidewalks004-573x430.jpg);
+  
+}
+
+.box-img-2 {
+background: url(https://jbsconstruction.net/wp-content/uploads/2013/04/concretemilwaukee-patios4.jpg)
+}
+
+
+.box-img-3 {
+ background: url(https://st.hzcdn.com/fimgs/abc26f7a04af366f_8881-w500-h375-b0-p0--.jpg)
+}
+
+.box-img-4 {
+  background: url(https://media.angieslist.com/s3fs-public/styles/widescreen_large/s3/s3fs-public/Concretecosts.jpg?itok=u0sGp4W-)
+}
+
+.box-img-5 {
+  background: url(https://www.ics50.com/wp-content/uploads/Stamped-Concrete-Paul-Patton-Certified-NewLook-Installer.jpeg)
+}
+
+.box-img-6 {
+  background: url(https://cimg2.ibsrv.net/cimg/www.doityourself.com/660x300_100-1/430/concrete-stairs-151430.jpg)
+}
+
+.box-img-7 {
+ background: url(https://drewsadventures.files.wordpress.com/2010/06/img_0238.jpg)
+}
+
+.box-img-8 {
+  background: url(https://images.homedepot-static.com/productImages/53382629-b6ce-4876-b679-8fa751747577/svn/gray-quikrete-concrete-repair-864000-4f_1000.jpg)
+}
+
+.box-img-9 {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTlrTFEp4Y5Vr-bMB1RGoKtyfBVfX3QRg0cKA&usqp=CAU)
+}
+
+.box-img-10 {
+  background: url(https://www.megasaw.com.au/wp-content/uploads/2014/06/concretedemolitionremoval.jpg)
+}
+
+.box-img-11 {
+  background: url(https://www.hiddenvalleybackhoe.com/img/excavation-grading-contractor.jpg);
+
+}
+
+.box-img-12 {
+  background: url(https://www.ferguson.com/sites/content/image/trenching-excavation-hero-980x360)
+}
+
+.box-img-1, .box-img-2, .box-img-3, .box-img-4, .box-img-5, .box-img-6, .box-img-7, .box-img-8,.box-img-9, .box-img-10, .box-img-11, .box-img-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: #F4AF1B;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.services  h2{
+  background-color: black;
+}
+
+/*----- Footer -----*/
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
+  color: #F4AF1B;
+  width: 100vw;
+  /* VW allows the CSS to see the width of the entire browser */
+  overflow: hidden;
+  /* will have issues with document collapsing without overflow hidden */
+  box-sizing: border-box;
+ 
+ 
+}
+
+.social {
+  display: flex;
+}
+
+.fa {
+  padding: 10px;
+  padding-top: 13px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 7px;
+  font-size: 30px;
+  transition: 300ms;
+}
+
+.fa:hover {
+  color: #0786e0;
+  background: #0a0a0a;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+/* Media Queries */
+
+@media  (max-width: 880px) {
+
+.number{
+  font-size: 0.9em;
+  float: right;
+  margin-right: 115px;
+}
+
+nav li  {
+  margin: 0 20px; 
+  font-size: 1.1em;   
+}
+
+.detail-container p {
+  font-size: 18px;
+}
+
+}
+
+/* Slider styling */
+
+.slider {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#222;
+
+}
+
+.image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.00);
 }

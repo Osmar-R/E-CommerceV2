@@ -1,0 +1,75 @@
+[
+    {
+        "title" : "SideWalk",
+        "description" : "Install Your New SideWalk Today!",
+        "price" : 10,
+        "imageClass" : "box-img-1"
+    },
+    {
+        "title" : "Patio",
+        "description" : "Concrete patios provide the perfect blend between form and function",
+        "price" : 5,
+        "imageClass" : "box-img-2"
+    },
+    {
+        "title" : "Foundation and Footing",
+        "description" : " Footings are an important part of foundation construction.They are made of concrete with rebar reinforcement that has been poured into an excavated trench. Price: Between $3 and $5 a square foot",
+        "price" : 4,
+        "imageClass" : "box-img-3"
+    },
+    {
+        "title" : "Driveways",
+        "description" : "We know that your driveway is one of the biggest factors in yourhome’s curb appeal, and we take our work seriously so wegurantee you’ll be completely satisfied with the outcome",
+        "price" : 11,
+        "imageClass" : "box-img-4"
+    },
+    {
+        "title" : "Stamped Concrete",
+        "description" : "   When you need stunning yet sustainable imprinted concrete, you should place your trust in us.",
+        "price" : 12,
+        "imageClass" : "box-img-5"
+    },
+    {
+        "title" : "Concrete Stairs",
+        "description" : " If you need to get to a higher floor easily, then some reliable concrete stiars might be the fit for you",
+        "price" : 7,
+        "imageClass" : "box-img-6"
+    },
+    {
+        "title" : "Garage Slab",
+        "description" : "There are so many incredible things to do in",
+        "price" : 34,
+        "imageClass" : "box-img-7"
+    },
+    {
+        "title" : "Concrete Restoration",
+        "description" : "Over the years concrete can undergo some erosion and form somes. With concrete restoration you will be to retore your concrete as if it were new!",
+        "price" : 3,
+        "imageClass" : "box-img-8"
+    },
+    {
+        "title" : "Commercial Concrete Pour",
+        "description" : "Have a big city project to work on? With our expertise we can tackle any type of size project that you have. (Contact For Price)",
+        "price" : 0,
+        "imageClass" : "box-img-9"
+    },
+    {
+        "title" : "Concrete Demolition/Cleanup",
+        "description" : " Removal and cleanup of any old concrete you need to get rid of",
+        "price" : 4,
+        "imageClass" : "box-img-10"
+    },
+    {
+        "title" : "Grading",
+        "description" : " Grading your property will help with the overall look of thespace,The levelness of the space and the prevention of erosion.",
+        "price" :6,
+        "imageClass" : "box-img-11"
+    }, {
+        "title" : "Excavation",
+        "description" : "We will clear and dig your land for any building construction.",
+        "price" : 50,
+        "imageClass" : "box-img-12"
+    }
+
+
+]
