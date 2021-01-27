@@ -44,7 +44,7 @@ function Products() {
   const filterProducts = () => {
       if(searchValue === null || searchValue === "") return products
 
-      return products.filter(({title , price }) => title.includes(searchValue) || price == searchValue)
+      return products.filter(({title , price }) => title.includes(searchValue) || price === searchValue)
   }
   const handleSearch = (e) => {
     const value = e.target.value;
