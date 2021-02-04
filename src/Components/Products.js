@@ -1,13 +1,16 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import products from "../data/products.json";
+import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
+// ternary if : => condition ? when the cond is true : when its false;
 const renderProduct = (numberOfProducts) => ({title, description , price , imageClass } , index) => { 
 
     
     const isEven = index % 2 === 0 ? true : false;
     if(isEven){
     return (
-  <div key={index} className="home-details" style={{ margin : numberOfProducts === 1 ? 40 : 0}}>
+  <div key={index} className={numberOfProducts === 1 ? "home-details first-detail" : "home-details"} > 
     <div className={imageClass}>
       <h2>{title}</h2>
     </div>
@@ -44,7 +47,7 @@ function Products() {
   const filterProducts = () => {
       if(searchValue === null || searchValue === "") return products
 
-      return products.filter(({title , price }) => title.includes(searchValue) || price === searchValue)
+      return products.filter(({title , price }) => title.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()) || price === searchValue)
   }
   const handleSearch = (e) => {
     const value = e.target.value;
@@ -74,9 +77,17 @@ function Products() {
         </div>
         <nav>
           <div className="social">
-            <i className="fa fa-facebook"></i>
-            <i className="fa fa-twitter"></i>
-            <i className="fa fa-instagram"></i>
+          <a href="https://www.facebook.com/Quintersos-Concrete-109518420455428"
+              className="facebook social">
+              <FontAwesomeIcon icon={faFacebook} size="3x" />
+          </a>
+          <a href="https://twitter.com/?logout=1612444467504" className="twitter social">
+               <FontAwesomeIcon icon={faTwitter} size="3x" />
+          </a>
+          <a href="https://www.instagram.com/"
+              className="instagram social">
+                <FontAwesomeIcon icon={faInstagram} size="3x"  />
+          </a>
           </div>
         </nav>
       </footer>

@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 
 
@@ -25,17 +27,25 @@ function Contact() {
                 </div>
             </form>
             <footer>
-                <div className="copyright">
-                    <p>All Rights Reserved © Quinteros Concrete</p>
-                </div>
-                <nav>
-                    <div className="social">
-                        <i className="fa fa-facebook"></i>
-                        <i className="fa fa-twitter"></i>
-                        <i className="fa fa-instagram"></i>
-                    </div>
-                </nav>
-            </footer>
+        <div className="copyright">
+          <p>All Rights Reserved © Quinteros Concrete</p>
+        </div>
+        <nav>
+          <div className="social">
+          <a href="https://www.facebook.com/Quintersos-Concrete-109518420455428"
+              className="facebook social">
+              <FontAwesomeIcon icon={faFacebook} size="3x" />
+          </a>
+          <a href="https://twitter.com/?logout=1612444467504" className="twitter social">
+               <FontAwesomeIcon icon={faTwitter} size="3x" />
+          </a>
+          <a href="https://www.instagram.com/"
+              className="instagram social">
+                <FontAwesomeIcon icon={faInstagram} size="3x"  />
+          </a>
+          </div>
+        </nav>
+      </footer>
         </div>
 
     )

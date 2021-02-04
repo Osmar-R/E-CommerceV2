@@ -254,6 +254,8 @@ footer {
 
 .social {
   display: flex;
+  margin: 8px 
+  
 }
 
 .fa {
@@ -363,3 +365,14 @@ nav li  {
   transition-duration: 1s;
   transform: scale(1.00);
 }
+
+.first-detail{
+  margin: 50px
+}
+
+
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+
